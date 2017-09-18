@@ -1,4 +1,4 @@
-FROM bitnami/minideb-extras:jessie-r21
+FROM bitnami/minideb-extras:jessie
 LABEL maintainer "Bitnami <containers@bitnami.com>"
 
 # Install required system packages and dependencies
