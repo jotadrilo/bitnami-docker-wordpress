@@ -13,7 +13,8 @@ services:
         interval: 5s
         retries: 20
   wordpress:
-    image: 'wordpress:workshop'
+    # image: 'wordpress:workshop'
+    build: .
     ports:
       - '80:80'
       - '443:443'
